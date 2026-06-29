@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz da Cidadania Digital - BNCC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Trilha da Cidadania Digital</h1>
+        <p>Avance no tabuleiro respondendo aos desafios do mundo digital!</p>
+    </header>
+
+    <main class="container">
+        <section class="tabuleiro-container">
+            <div id="tabuleiro">
+                </div>
+            <div class="status-jogo">
+                <p>Jogador: <span id="nome-jogador">Aluno(a)</span></p>
+                <p>Pontuação: <span id="pontuacao">0</span> pontos</p>
+                <p>Posição: Casa <span id="posicao-atual">1</span> de 6</p>
+            </div>
+        </section>
+
+        <section class="quiz-container">
+            <div id="caixa-pergunta">
+                <h2 id="titulo-questao">Carregando desafio...</h2>
+                <div id="opcoes-resposta"></div>
+                <button id="btn-proximo" class="escondido">Avançar na Trilha</button>
+            </div>
+            <div id="feedback" class="escondido"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Componente Curricular: Cultura e Educação Digital - Ensino Médio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
